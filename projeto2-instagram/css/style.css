@@ -1,6 +1,15 @@
-.container {
+.conteudo, .topo {
     width: 935px;
     margin: 0 auto;
+}
+
+.container-topo {
+    border-bottom: 1px solid #d8d8d8;
+    position: fixed;
+    left: center;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
 }
 
 .topo {
@@ -14,7 +23,59 @@
     display: flex;
 }
 
+.icones-esquerda div {
+    width: 1px;
+    background-color: #d8d8d8;
+    height: 22px;
+    margin: 0 10px;
+}
+
 .icon {
     width: 22px;
     height: 22px;
+}
+
+input {
+    width: 215px;
+    height: 28px;
+    font-family: Roboto;
+    text-align: center;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+    color: #d8d8d8;
+}
+/* FIM TOPO */
+
+/* INICIO CONTEÚDO */
+.container-conteudo, .stories {
+    background-color: #FAFAFA;
+}
+
+.conteudo {
+    display: flex;
+    padding-top: 88px;
+    justify-content: space-between;
+}
+
+.stories {
+    background-color: red;
+    width: 614px;
+    height: 118px;
+
+}
+
+.feed {
+    width: 614px;
+    height: 2000px;
+}
+
+.posts {
+    margin-top: 24px;
+    background-color: blue;
+}
+
+.sidebar {
+    width: 293px;
+    height: 460px;
+    background-color: yellow;
 }
